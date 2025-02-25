@@ -1,0 +1,631 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   background: white;
+    
+
+}
+.logo{
+    font-size: 30px;
+    /* right: 50px; */
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin: 36px;
+}
+
+
+.navlist{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.navlist a{
+    
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    margin-right: 30px;
+    font-size: 18px;
+}
+.navlist a:hover{
+    border-bottom: 2px solid white;
+}
+#menu-icon{
+    color: white;
+    font-size: 30px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+
+/* ..............................................................nav2......................................................... */
+
+.head2 #nav2{
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 23px 5%;
+
+}
+.hr{
+    display: flex; justify-content: center;
+}
+
+/* .nav2{
+   display: flex;
+ 
+} */
+.btn{
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid #2612ba;
+    border-radius: 30px;
+    background-color: #2612ba;
+    transition: all .5s;
+}
+.btn:hover{
+    border: 2px solid #ffffff;
+    opacity: 0.5;
+}
+
+/* .............................................hero section started here................................... */
+.hero{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.hero-text{
+    /* border: 2px solid red; */
+    width: 50%;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+    margin-bottom: 10rem;
+    /* gap: 20px; */
+}
+
+.ca{
+    /* border: 2px solid red; */
+    padding: 20px;
+    display: flex;
+    gap: 25px;
+}
+.comp{
+    border: 2px solid #673de6;
+    padding: 20px 40px;
+    border-radius: 18px;
+    color: #fff;
+    background-color: #673de6;
+    width: fit-content;
+}
+/* .comp:hover{
+    background-color: transparent;
+} */
+.ctaa{
+    border: 2px solid #6d6d72;
+    padding: 20px 40px;
+    color: #fff;
+    border-radius: 18px;
+    background-color: #4a4a4f;
+     width: fit-content;
+}
+
+.sec2{
+    margin-top: 20px;
+}
+.login{
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 12px 0 12px 12px; 
+    text-align: center;
+    display: flex;
+}
+/* section{
+    padding: 0 19%;
+} */
+
+/* .hero-text h5{
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 40px;
+
+} */
+.hero-text h1{
+    font-family: "poppins", sans-serif;
+    font-size: 36px;
+    color: #2f1c6a;
+    /* margin: 0 0 45px; */
+   
+   
+}
+ 
+/* ......................................................paragraph section..................................................... */
+
+
+
+.para{
+    color: #2f1c6a;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 68px;
+}
+.discount{
+    color: #45209d;
+}
+.material-symbols-outlined{
+    color: #00b090;
+    
+}
+.price{
+    color: #2f1c6a;
+    font-size: 24px;
+    margin-top: 22px;
+    margin-left: 10px;
+}
+.month{
+    font-size: 19px;
+    font-weight: 500;
+} 
+.dollar{
+    color: #45209d;
+    font-weight: 600;
+    font-size: 40px;
+}
+.hero-img{
+    width: 50%;
+    height: 100%;
+    position: relative;
+
+
+}
+ .hero-img img{
+    width:100% ;
+    height: auto;
+    /* position: absolute; */
+    bottom: 0%;
+    margin-bottom: 116px;
+} 
+#Feature{
+    background: white;
+    text-align: center;
+   
+}
+#Feature p{
+    color: #1a1c1a;
+   
+}
+#Feature h4{
+    color: rgb(98, 94, 94);
+}
+#Feature h2{
+    font-size:50px;
+}
+.section2{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* .div a{
+    display: inline-block;
+    color: white;
+    background: #4d9559;
+    border: 3px solid transparent;
+    padding: 12px 30px;
+} */
+.icons{
+    /* position: absolute; */
+    top: 50%;
+    padding: 0 9%;
+    transform: translateY(-50%);
+}
+.icons i{
+    display: block;
+    margin: 26px 0;
+    font-size: 24px;
+    color: white;
+    transition: all .50s ease;
+}
+.icons i:hover{
+    color: #b7bcb7;
+    transform: translateY(-5px);
+}
+.scroll-down{
+    position: absolute;
+    bottom: 6%;
+    right: 9%;
+}
+
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+/* ..................................................footer......................................................................... */
+.footer{
+	background-color: #ffffff;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #2f1c6a;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	/* background-color: #e91e63; */
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #2f1c6a;
+	text-decoration: none;
+	font-weight: 400;
+	color: #45209d;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #45209d;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255, 252, 252, 0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+/* ................................................................footer ends................................................................ */
+/* ........................................................imcon sec.............................................. */
+.img_content{
+    margin-bottom: 30px;
+}
+.img_content > h2{
+    text-align: center;
+    
+}
+.img_content > p{
+    text-align: center;
+}
+.imgcon{
+    display: flex;
+    justify-content: center;
+    border-radius: 18px;
+
+}
+.image{
+    width:33%;
+    background-color: #1F1346;
+    
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+
+    /* border: 2px solid red; */
+}
+.content{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    background-color: #1F1346;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    gap: 10px;
+
+    color: #fff;
+    padding-left: 18px;
+
+    /* border-radius: 18px; */
+
+
+}
+.content > p:nth-child(1){
+    background-color: #45209d;
+    border-radius: 15px;
+}
+
+/* ........................................................imcon sec end.............................................. */
+/* .......................................................helpdesk................................................. */
+.help_desk{
+    display: flex;
+    justify-content: center;
+    border-radius: 18px;
+    align-items: center;
+}
+
+.help_main{
+    
+    justify-content: center;
+    /* margin-top: 150px; */
+}
+.help_main > p{
+    display: flex;
+    gap: 6px;
+}
+.help_main > h2{
+    margin-bottom: 20px;
+    color: #1F1346;
+    font-size: 32px;
+}
+.help_main > p{
+    margin-bottom: 20px;
+    color: #2f1c6a;
+}
+
+.help_main :nth-child(2){
+    margin-bottom: 10px;
+}
+.help_main :nth-child(3){
+    margin-bottom: 10px;
+}
+.help_main :nth-child(4){
+    margin-bottom: 10px;
+}
+
+.help_right > img{
+    height: 500px;
+}
+
+
+/* .......................................................helpdesk ends................................................. */
+.owners{
+    display: flex;
+}
+.owners > img{
+    height: 600px;
+}
+/* .....................................................plan sec...................................................... */
+.plans{
+    background-color: #1F1346;
+    justify-content: center;
+    padding-bottom: 80px;
+    padding-top: 100px;
+}
+.plans > h2 {
+    color: #fff;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+.plans > p {
+    color: #fff;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.join_btn{
+    border-radius: 13px;
+    padding: 15px;
+    background-color: #e91e63;
+    color: #fff;
+    border: none;
+}
+.content_2 > h2{
+    margin-bottom: 20px;
+}
+.content_2 > p{
+    margin-bottom: 20px;
+}
+.content_2 :nth-child(4){
+    margin-bottom: 20px;
+}
+/* .....................................................plan sec ends...................................................... */
+
+/* ..........................................................priceing cards.................................................................... */
+.pricing_section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /* border: 2px solid red; */
+    padding-bottom: 80px;
+}
+.price_btn{
+    border-radius: 13px;
+    padding: 15px;
+    background-color: #e91e63;
+    color: #fff;
+    border: none;
+    
+}
+.pricing_section > h2{
+    text-align: center;
+    color: #ffffff;
+    padding: 40px 0 20px 0;
+}
+.pricing_section > p{
+    text-align: center;
+    padding: 20px 0 20px 0;
+    color: #ffffff;
+}
+
+.pricing_section > .parent_pricing{
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 30px; */
+}
+
+.pricing_section > .parent_pricing > .price_cards{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #45209d;
+    border-radius: 18px;
+}
+.price_cards > p{
+    padding: 20px 20px 10px 20px;
+}
+.parent_pricing{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.price_cards{
+    /* border: 2px solid black; */
+    width: 30%;
+    box-shadow: 0px 1px 60px rgba(0, 0, 0, 0.141);
+}
+
+/* .pricing_section > .parent_pricing > .price_cards > span{
+     content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: red;
+    padding-inline: 24px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg)
+} */
+
+.pricing_section > .parent_pricing > .price_cards > p{
+    color: rgb(0, 0, 0);
+}
+
+.pricing_section > .parent_pricing > .price_cards > p:nth-child(2){
+    color: rgb(9, 5, 5);
+}
+
+.pricing_section > .parent_pricing > .price_cards > p:nth-child(4){
+    /*    */
+    padding-bottom: 40px;
+}
+/* ..........................................................pricing cards ends................................................................... */
+/* ..........................................................backgr sec......................................................................... */
+.backgr{
+    background-color: #1F1346;
+    margin-bottom: 30px;
+    padding-bottom: 55px;
+}
+/* .backgr {
+    z-index: 1000;
+} */
+.backgr  h1 p{
+    color: white;
+}
+.backgr_bg{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 28px;
+    color: #fff;
+    font-size: 14px;
+}
+.backgr_bg1{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+   
+}
+.backgr > h1{
+    margin-bottom: 10px;
+}
+/* ..........................................................backgr sec end......................................................................... */
+
+
+/* domain code */
+.domain > p{
+    display: flex;
+    gap: 5px;
+    color: #2f1c6a;
+    font-size: 18px;
+}
+/* .ri-question-line{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+} */
+ /* ...........................................wordpress sec................................................................. */
+ .wordpress{
+    margin-top: 50px;
+    
+ }
+ .wordpress h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+
+ }
+ .wordpress >  h2 > i{
+    padding-right: 20px;
+ }
+
+
+ .wordimg img{
+    width: 200px;
+ }
+ .wordimg{
+    display: flex;
+    gap: 67px;
+    justify-content: center;
+    
+ }
+ @media only screen and (min-width: 1080){
+    .wording{
+        flex-direction: column;
+    }
+ }
