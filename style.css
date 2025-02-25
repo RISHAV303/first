@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "poppins", sans-serif;
+    font-family: "DM Sans", sans-serif;
     list-style: none;
     text-decoration: none;
     scroll-behavior: smooth;
@@ -456,7 +456,7 @@ ul{
 }
 .join_btn{
     border-radius: 13px;
-    padding: 15px;
+    padding: 21px 36px 21px 36px;
     background-color: #e91e63;
     color: #fff;
     border: none;
@@ -484,7 +484,7 @@ ul{
 }
 .price_btn{
     border-radius: 13px;
-    padding: 15px;
+    padding: 21px 36px 21px 36px;
     background-color: #e91e63;
     color: #fff;
     border: none;
